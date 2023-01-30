@@ -10,7 +10,7 @@ filesRouter.get("/api/files/:filename", (req, res) => {
     try{
         const parFilename = req.params.filename
         console.log(parFilename)
-        
+        //
         // const file = index.gfs.find({filename: parFilename}).toArray((err, result) =>{
              
         // });
